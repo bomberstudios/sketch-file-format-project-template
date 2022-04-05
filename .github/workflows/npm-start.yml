@@ -27,3 +27,7 @@ jobs:
         run: npm install
       - name: Run `npm start`
         run: npm start
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Updated Sample Sketch File
+          path: sample-file.sketch
