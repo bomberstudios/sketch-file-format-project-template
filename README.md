@@ -7,7 +7,9 @@ This is a template for a file format project, with a few basic features and sens
 Optional, if you use `nvm` (highly recommended):
 
 ```bash
-nvm use # 17.8.0 by default
+nvm install 17.8.0
+nvm use
+# if you're using Codespaces, you'll need to run `nvm use --delete-prefix v17.8.0`
 ```
 
 Install all the dependencies:
