@@ -8,8 +8,7 @@ Optional, if you use `nvm` (highly recommended):
 
 ```bash
 nvm install 17.8.0
-nvm use
-# if you're using Codespaces, you'll need to run `nvm use --delete-prefix v17.8.0`
+nvm use # if you're using Codespaces, you'll need to run `nvm use --delete-prefix`
 ```
 
 Install all the dependencies:
