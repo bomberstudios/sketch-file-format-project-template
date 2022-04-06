@@ -4,11 +4,13 @@ on:
   push:
     paths:
       - ./**.sketch
+      - ./**.ts
       - .github/workflows/**.yml
     branches: [main]
   pull_request:
     paths:
       - ./**.sketch
+      - ./**.ts
       - .github/workflows/**.yml
     branches: [main]
 
